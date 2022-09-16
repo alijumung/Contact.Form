@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Get in touch</title>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <div class="info">
+              <h1>Get in touch!</h1>
+              <h2>Contact us for a quote, help ot to join the team</h2>
+              <button id="bt-location">
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <p>Incilipinar mah 1227</p>
+              </button>
+              <button id="bt-phone">
+                <i class="fa-solid fa-phone"></i>
+                <p>+02 1234 567</p>
+              </button>
+              <button id="bt-mail">
+                <i class="fa fa-envelope"></i>
+                <p>alijumung@gmail.com</p>
+              </button>
+            </div>
+            <div class="forms">
+                <div class="contact-form1">
+                    <h3>Contact Form</h3>
+                    <div id="name">
+                        <input type="text" id="name-input" placeholder="Username" required>
+                        <i class="fa-solid fa-user"></i>  
+                    </div>
+                    <div id="mail">
+                        <input type="text" id="mail-input" placeholder="Email Address" required>
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div id="Phone">
+                        <input type="tel" id="phone-input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Phone Number" maxlength="10">
+                        <i class="fa-solid fa-mobile-screen-button"></i> 
+                    </div>
+                </div>
+                <div class="contact-form2"> 
+                    <div id="message">
+                        <label for="message-input">Message</label>
+                        <input type="text" id="message-input" placeholder="Write Your Message" required>
+                    </div>
+                </div>
+                <div class="contact-form3"> 
+                    <div id="services">
+                        <h3>Services</h3>
+                        <button>Web Design</button>
+                        <button>Web developement</button>
+                        <button>Logo design</button>
+                        <button>Other</button>
+                    </div>
+                </div>
+                <button id="send-bt" onclick="validate()">Send Message</button>
+            </div>
+        </div>
+    </div>
+    <script src="source.js"></script>
+</body>
+</html>

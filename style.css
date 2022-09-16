@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+body{
+    background-color: #5c45b6;
+}
+button{
+    cursor: pointer;
+}
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-color: #5c45b6;
+}
+.forms{
+    position: absolute;
+    display: flex;
+    height: 452px;
+    width: 500px;
+    background-color: #FFFF;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    background-color: #5c45b6;
+    position: absolute;
+    border-radius: 20px;
+}
+.info{
+    position: absolute;
+    top: 0px;
+    display: block;
+    background-color: #5c45b6;
+    margin-bottom: 50px;
+    width: 600px;
+}
+.info h1{
+    color: #FFFF;
+}
+.info h2{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    color: #FFFF;
+}
+.info button{ 
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width: 120px;
+    background-color: transparent;
+    color: #F9F2ED;
+    transition: background-color 0.20s;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info button:hover{
+    background-color: #f2a1ad;
+}
+
+.info button p{
+    font-size: 10px;
+    margin-top: 9px;
+}
+#bt-phone{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contact-form1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 64px;
+    top: 30px;
+}
+.contact-form1 h3{
+    font-weight: 600;
+    font-size: 15px;
+    position: absolute;
+    left: -23px;
+    top: 0px;
+    color: #333;
+}
+.contact-form1 input{
+    position: relative;
+    margin-top: 20px;
+    top: 30px;
+    border: 3px solid;
+    border-color: #FFFF;
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+    padding-left: 10px;
+    outline: none;
+    transition: border-color 0.10s;
+    background-color: #FFFF;
+}
+.contact-form1 input:focus{
+    border-color: #f2a1ad;
+}
+.contact-form1 label{
+    position: relative;
+    margin-top: 30px;
+}
+.contact-form1 i{
+    position: relative;
+    top: 3px;
+    left: -25px;
+    font-size: 17px;
+    color: #555;
+    
+}
+.contact-form2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 138px;
+}
+.contact-form2 input{
+    padding-bottom: 163px;
+    padding-left: 7px;
+    padding-top: 5px;
+    margin-top: 50px;
+    margin-right: 10px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #FFFF;
+    border: 3px solid #FFFF;
+    transition: border-color 0.10s;
+}
+.contact-form2 label{
+    position: absolute;
+    font-weight: 600;
+
+}
+.contact-form2 input:focus{
+    border-color: #f2a1ad;
+}
+.contact-form3{
+    display: block;
+    width: 500px;
+    position: absolute;
+    bottom: 70px;
+}
+.contact-form3 button{
+    border: none;
+    height: 30px;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #555;
+    border: solid 3px #FFFF;
+    background-color: rgb(240, 233, 233);
+    transition: color 0.15s, border-color 0.15s;
+}
+.contact-form3 button:hover{
+    border-color:#f2a1ad;
+    color: #f2a1ad; 
+}
+
+#send-bt{
+    position: absolute;
+    bottom: 20px;
+    border: none;
+    width: 130px;
+    height: 30px;
+    background-color: #f2a1ad;
+    color: #FFFF;
+    border-radius: 5px;
+    transition: opacity 0.15s;
+}
+#send-bt:hover{
+    opacity: 0.7;
+}
+#services h3 {
+    font-weight: 600;
+    font-size: 15px;
+    position: absolute;
+    left: 39px;
+    bottom: 40px;
+    color: #333;
+}
+#message{
+    position: relative;
+    top: -106px;
+}
+
